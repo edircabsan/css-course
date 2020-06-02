@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.my-box {
+  padding: 10px 20px 30px 40px;
+  margin: 10px 20px 30px 40px;
+  border-top: 10px solid black;
+  border-left: 20px solid black;
+  border-bottom: 30px solid black;
+  border-right: 40px solid black;
+  display: inline-block;
+}
+
+.first-box {
+  height: 300px;
+  width: 50%;
+}
+
+div:last-of-type:hover {
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 10px;
+}
